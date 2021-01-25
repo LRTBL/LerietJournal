@@ -7,6 +7,11 @@ const JournalApp = () => {
         <div>
             <img src={paisaje} alt='paisaje' />
             <h1>Soy un nuevo componente</h1>
+            <h1>Soy un nuevo componente</h1>
+            <h1>Soy un nuevo componente</h1>
+            <h1>Soy un nuevo componente</h1>
+            <h1>Soy un nuevo componente</h1>
+            <h1>Soy un nuevo componente</h1>
         </div>
     );
 };
