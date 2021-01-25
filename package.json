@@ -15,7 +15,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "lint": "npx eslint ./src --fix",
+    "lint": "npx eslint . --fix",
     "test": "jest .",
     "dev": "webpack-dev-server --open --mode development",
     "build:dev": "webpack --mode development && node server.js",
