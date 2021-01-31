@@ -1,19 +1,6 @@
 import React from 'react';
-import paisaje from './assets/images/17010.jpg';
+import AppRouter from './routers/AppRouter';
 
-const JournalApp = () => {
-    console.log('');
-    return (
-        <div>
-            <img src={paisaje} alt='paisaje' />
-            <h1>Soy un nuevo componente</h1>
-            <h1>Soy un nuevo componente</h1>
-            <h1>Soy un nuevo componente</h1>
-            <h1>Soy un nuevo componente</h1>
-            <h1>Soy un nuevo componente</h1>
-            <h1>Soy un nuevo componente</h1>
-        </div>
-    );
-};
+const JournalApp = () => <AppRouter />;
 
 export default JournalApp;
