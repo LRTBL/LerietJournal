@@ -2,7 +2,6 @@ const path = require('path');
 const { DefinePlugin } = require('webpack');
 const Dotenv = require('dotenv-webpack');
 
-require('@babel/polyfill');
 const RemovePlugin = require('remove-files-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 
@@ -64,7 +63,6 @@ module.exports = {
                 include: ['./dist'],
             },
         }),
-
         new HtmlWebPackPlugin({
             template: './public/index.html',
             filename: 'index.html',
